@@ -7,7 +7,7 @@ library(tidyr)
 data_dir <- '~/Downloads/UCI HAR Dataset'
 
 # 1. Merge data sets
-mergeDataSets <- function(data_dir) {
+mergeDataSets <- function(data_dir = '.') {
   test_dir <- file.path(data_dir, 'test')
   train_dir <- file.path(data_dir, 'train')
 
